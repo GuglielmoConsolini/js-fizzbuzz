@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: calc(100% / 10);
+    color: red;
+    padding: 0.8rem;
+    text-align: center;
+    background-color: black;
+    border: 1px solid white;
+    justify-content: space-between;
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 3px solid green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fizz-buzz{
+    background-color: yellow;
+    color: darkcyan;
+}
+
+.fizz{
+    background-color: aqua;
+    color: green;
+}
+
+.buzz{
+    background-color: blue;
+    color: white;
+}
